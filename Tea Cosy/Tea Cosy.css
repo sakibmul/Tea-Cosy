@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+}
+a {
+    color: seashell;
+}
+.flexitems {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+a {
+    
+    text-decoration: none;
+}
+a:hover {
+ text-decoration: underline;
+ font-size: larger;
+ color: aqua;  
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+/*header section*/
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    align-items: center;
+    height: 69px;
+}
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+/*end of header section*/
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+/*end of main*/
+
+/*the start of the Mission seciton*/
+#mission {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    padding-top: 70px;
+}
+/*hand is the class name for the title and paragraph*/
+#mission .hand {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+/*end of the mission section*/
+
+/*the tea of the month section, three divs created, the main div is to contain the flexbox*/
+.teamonth {
+    margin: auto;
+    padding-top: 70px;
+    height: 700px;
+    width: 1000px;
+}
+.item {
+    padding: 5px;
+}
+.item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*end of the tea of the month section*/
+
+/*start of the location section, flexitems used for box items. flexitems is the div class for all flex boxes on the website */
+.flexitems {
+    padding-top: 5px;
+}
+#locationcontainer {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    height: 500px;
+    padding-top: 70px;
+}
+#locationcontainer .flexitems {
+    margin: auto;
+    width: 1100px;
+}
+.locat {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*end of the location section*/
+
+/*contact section*/
+#contact {
+    height: 200px;
+}
+ /*end of contact section*/
+/*footer section, only for the copyright information*/
+footer {
+    background-color: black;
+    color: seashell;
+    text-align: left;
+}
+/*end of footer section*/
+
+
+
